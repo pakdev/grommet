@@ -29,6 +29,7 @@ const DataTable = ({
   background,
   border,
   columns = [],
+  columnWidths = {},
   data = [],
   groupBy,
   onClickRow, // removing unknown DOM attributes
@@ -91,7 +92,7 @@ const DataTable = ({
   );
 
   // any customized column widths
-  const [widths, setWidths] = useState({});
+  const [widths, setWidths] = useState(columnWidths);
 
   // remember that we are filtering on this property
   const onFiltering = property => setFiltering(property);
