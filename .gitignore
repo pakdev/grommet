@@ -12,7 +12,7 @@ coverage
 package-lock.json
 
 # production
-dist
+# dist
 storybook-static
 
 #logs
