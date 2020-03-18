@@ -137,7 +137,7 @@ export interface DataTableProps {
     search?: boolean;
     sortable?: boolean;
   }[];
-  columnWidths?: {}[];
+  columnWidths?: {};
   data?: {}[];
   groupBy?:
     | string
